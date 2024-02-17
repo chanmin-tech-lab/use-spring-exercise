@@ -41,6 +41,8 @@ const App = () => {
     from: { opacity: 0 },
     enter: { opacity: 1 },
     leave: { opacity: 0 },
+    // trail: 요소간 딜레이 (stagger와 동일한 효과)
+    trail: 200,
   });
 
   useEffect(() => {
